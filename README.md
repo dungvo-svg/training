@@ -42,7 +42,7 @@ Mỗi nhóm học là một thư mục `plugins/lop-hoc/skills/work-first-learni
 
 ## Phát hành một bản (người giữ repo)
 
-1. Chỉ người giữ repo đẩy được vào `main`; người khác gửi PR từ fork. **Mỗi lần `main` đổi là mọi máy nhận bản mới.**
+1. **Repo chỉ có một nhánh `main`.** Người giữ repo commit thẳng vào `main`, không tạo nhánh phụ; người khác (và thầy trên máy người học) gửi PR từ fork của họ. **Mỗi lần `main` đổi là mọi máy nhận bản mới.**
 2. Tăng `version` trong `plugins/lop-hoc/.claude-plugin/plugin.json` (dạng `X.Y.Z-pilot.N`) **và** số trong ngoặc ở dòng đầu `templates/classroom-CLAUDE.md`. Không tăng thì máy đã cài không nhận bản mới.
 3. `python tools/build_lop_hoc_mau.py` rồi kiểm:
 
