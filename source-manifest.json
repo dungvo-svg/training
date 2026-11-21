@@ -1,0 +1,326 @@
+[
+  {
+    "source_path": "LICENSE",
+    "target_path": "LICENSE",
+    "source_bytes": 1070,
+    "source_git_blob": "83b5079967faccf5a8cc72eb41ff6a469c3b8750"
+  },
+  {
+    "source_path": "plugins/lop-hoc/.claude-plugin/plugin.json",
+    "target_path": "plugins/lop-hoc/.claude-plugin/plugin.json",
+    "source_bytes": 643,
+    "source_git_blob": "952938d8ceae8850633b9282e3024c6e8d876999"
+  },
+  {
+    "source_path": "plugins/lop-hoc/hooks/art.ts",
+    "target_path": "plugins/lop-hoc/hooks/art.ts",
+    "source_bytes": 59061,
+    "source_git_blob": "f3d68c2f94f722aa14f243a81c85d2e5ac45725e"
+  },
+  {
+    "source_path": "plugins/lop-hoc/hooks/giao-an.ts",
+    "target_path": "plugins/lop-hoc/hooks/giao-an.ts",
+    "source_bytes": 10076,
+    "source_git_blob": "405be9299e3cdb6090edac64564c3801008d5ed6"
+  },
+  {
+    "source_path": "plugins/lop-hoc/hooks/hooks.json",
+    "target_path": "plugins/lop-hoc/hooks/hooks.json",
+    "source_bytes": 34,
+    "source_git_blob": "5a63f649593a5d89af8775a8e3d12db0f0940b12"
+  },
+  {
+    "source_path": "plugins/lop-hoc/hooks/i18n.ts",
+    "target_path": "plugins/lop-hoc/hooks/i18n.ts",
+    "source_bytes": 27407,
+    "source_git_blob": "381b5badf32d1108fc6b93a7f926e1b936ee9ddd"
+  },
+  {
+    "source_path": "plugins/lop-hoc/hooks/register.tsx",
+    "target_path": "plugins/lop-hoc/hooks/register.tsx",
+    "source_bytes": 132101,
+    "source_git_blob": "d5212a231e05b350d53575e5a6f852db211dcdbc"
+  },
+  {
+    "source_path": "plugins/lop-hoc/hooks/shot.ts",
+    "target_path": "plugins/lop-hoc/hooks/shot.ts",
+    "source_bytes": 5836,
+    "source_git_blob": "26533a242763702a9f96138508730e717e7c99f6"
+  },
+  {
+    "source_path": "plugins/lop-hoc/tests/art.test.ts",
+    "target_path": "plugins/lop-hoc/tests/art.test.ts",
+    "source_bytes": 13888,
+    "source_git_blob": "94cd33f77bcc985ecf09e9b4f783270c1d9fa15b"
+  },
+  {
+    "source_path": "plugins/lop-hoc/tests/lop-hoc.test.tsx",
+    "target_path": "plugins/lop-hoc/tests/lop-hoc.test.tsx",
+    "source_bytes": 171229,
+    "source_git_blob": "28a2ead83e7adddd7b4b16e19bd96fade6fca050"
+  },
+  {
+    "source_path": "plugins/lop-hoc/tests/shot-fixtures.ts",
+    "target_path": "plugins/lop-hoc/tests/shot-fixtures.ts",
+    "source_bytes": 1773,
+    "source_git_blob": "28e3dc637fc6c1123f76bc7f7acd20d15ff87681"
+  },
+  {
+    "source_path": "plugins/lop-hoc/tests/shot.test.ts",
+    "target_path": "plugins/lop-hoc/tests/shot.test.ts",
+    "source_bytes": 6134,
+    "source_git_blob": "14bf4e63c0e3396cc6539f968576ec47e08b717f"
+  },
+  {
+    "source_path": "plugins/lop-hoc/types/index.d.ts",
+    "target_path": "plugins/lop-hoc/types/index.d.ts",
+    "source_bytes": 9513,
+    "source_git_blob": "a983aeb3a3a636348025fdb986304a74390e2064"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/SKILL.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/SKILL.md",
+    "source_bytes": 100601,
+    "source_git_blob": "503c610d1b9a3f555371cb3ea70fcf16a28d6d1b"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/README.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/README.md",
+    "source_bytes": 11022,
+    "source_git_blob": "080c13e5164041d4a4fcb656ff8031ad446b41a1"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/ban-la-sep/dap-an.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/ban-la-sep/dap-an.md",
+    "source_bytes": 2143,
+    "source_git_blob": "ac9f72977d1810bcc7de3725b5c0d3c55bcff32b"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/ban-la-sep/ket-qua-claude-mau.csv",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/ban-la-sep/ket-qua-claude-mau.csv",
+    "source_bytes": 437,
+    "source_git_blob": "5db2a39f052874e674f6a5acdc33afbe0161230b"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/ban-la-sep/ket-qua-claude-mau.xlsx",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/ban-la-sep/ket-qua-claude-mau.xlsx",
+    "source_bytes": 5549,
+    "source_git_blob": "7cfc80066082dd49ee8d9ec236d4e3b51259aba8"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/bang-tinh-mau-tuan-sau.csv",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/bang-tinh-mau-tuan-sau.csv",
+    "source_bytes": 4100,
+    "source_git_blob": "5f68a823d26323af1ac4ed3f9b3121ae59ed16f0"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/bang-tinh-mau-tuan-sau.xlsx",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/bang-tinh-mau-tuan-sau.xlsx",
+    "source_bytes": 7474,
+    "source_git_blob": "8a1641d52264322718a84871161f6bc126b4516e"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/bang-tinh-mau.csv",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/bang-tinh-mau.csv",
+    "source_bytes": 4092,
+    "source_git_blob": "d98f21086c05532220dfaff7953057ce226d30e9"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/bang-tinh-mau.xlsx",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/bang-tinh-mau.xlsx",
+    "source_bytes": 7428,
+    "source_git_blob": "20a412993269839cd316c6871522a1ad406b2cfc"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/dap-an-mau.xlsx",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/dap-an-mau.xlsx",
+    "source_bytes": 7853,
+    "source_git_blob": "b363589c02e9dd5583f19cf7599558646a0900fe"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-40.csv",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-40.csv",
+    "source_bytes": 2092,
+    "source_git_blob": "2f4169117542b6a41e77bda6f7229ff17cc8bec2"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-40.xlsx",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-40.xlsx",
+    "source_bytes": 6566,
+    "source_git_blob": "848357496f749ec92e8c12e1520d31eada7013a1"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-41.csv",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-41.csv",
+    "source_bytes": 2120,
+    "source_git_blob": "f98b735530a60bc918ce6b6c2927a43924628c69"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-41.xlsx",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-41.xlsx",
+    "source_bytes": 6576,
+    "source_git_blob": "396d15c433fb83690d530114bbc441253ee08693"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-42.csv",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-42.csv",
+    "source_bytes": 2126,
+    "source_git_blob": "4173aac82c847d921518fa3da79163698388e49a"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-42.xlsx",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/gop/don-hang-tuan-42.xlsx",
+    "source_bytes": 6547,
+    "source_git_blob": "e0cf0727639919fb1a7d57e535c4813941d6cc7a"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/phieu-nhan-hang-mau.png",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/phieu-nhan-hang-mau.png",
+    "source_bytes": 73895,
+    "source_git_blob": "143e378ecd7ff384ed58304a844e93640e9406f6"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/thong-bao-noi-bo-mau.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/thong-bao-noi-bo-mau.md",
+    "source_bytes": 1069,
+    "source_git_blob": "933b9d70c099fd91076b9ce18081cb7c91b0782b"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/tim-loi/bang-tim-loi.csv",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/tim-loi/bang-tim-loi.csv",
+    "source_bytes": 2602,
+    "source_git_blob": "2235f4c9392a70f52d48edf5756625ae1ce73d30"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/tim-loi/bang-tim-loi.xlsx",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/tim-loi/bang-tim-loi.xlsx",
+    "source_bytes": 6837,
+    "source_git_blob": "dbafc049a06467e5c1708b5ccc77dbb2a15860de"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/mau/tim-loi/dap-an-tim-loi.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/mau/tim-loi/dap-an-tim-loi.md",
+    "source_bytes": 1216,
+    "source_git_blob": "95c7c70d2098d7a8f7b33a33d22941364eab28e3"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/scripts/chup-man-hinh.ps1",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/scripts/chup-man-hinh.ps1",
+    "source_bytes": 11081,
+    "source_git_blob": "33f83e2890429edd44a6c851651f30aef318e08c"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/scripts/danh-dau.ps1",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/scripts/danh-dau.ps1",
+    "source_bytes": 18302,
+    "source_git_blob": "c1b437793cdd5c47d7527ce125507ebb53f9846b"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/assets/skill-mau/tong-hop-don-hang/SKILL.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/assets/skill-mau/tong-hop-don-hang/SKILL.md",
+    "source_bytes": 5412,
+    "source_git_blob": "ba618edf7b177e3adb2907fa3cf54a7d8481b230"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/ban-do-sach.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/ban-do-sach.md",
+    "source_bytes": 8518,
+    "source_git_blob": "ae22ca2872eb18eb7e4e3716dcfc2eb4d49520cc"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/buoi-1.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/buoi-1.md",
+    "source_bytes": 42710,
+    "source_git_blob": "324deab622544d139195b888f14006b8e77a2171"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/chi-tren-man-hinh.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/chi-tren-man-hinh.md",
+    "source_bytes": 9548,
+    "source_git_blob": "7dd7dc64ac552a8f8b538362b1e3e9d20ab2d5c7"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/day-truc-quan.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/day-truc-quan.md",
+    "source_bytes": 21693,
+    "source_git_blob": "7d1522f1914f6deac1c293649ee9abd43a5503f9"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/giao-an-vong-1.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/giao-an-vong-1.md",
+    "source_bytes": 8792,
+    "source_git_blob": "334c03d12057d292ea5e360af5494a46af88f2bc"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/huy-hieu.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/huy-hieu.md",
+    "source_bytes": 7456,
+    "source_git_blob": "d48d6aaefd0a8006f286f04cb194ccacc90985ff"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/kho-tro-choi.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/kho-tro-choi.md",
+    "source_bytes": 30369,
+    "source_git_blob": "7691841e9b251a1bbb71bf2a9195fc6461713036"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/lo-trinh-cong-cu.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/lo-trinh-cong-cu.md",
+    "source_bytes": 6619,
+    "source_git_blob": "15a2e69a499407fe6f54752d14b76db9bf130d1c"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/nang-luc-giao-vien.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/nang-luc-giao-vien.md",
+    "source_bytes": 23181,
+    "source_git_blob": "6a5054d66d922c0f212990f78a14c44a74fe77fa"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/nghien-cuu-tai-lieu.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/nghien-cuu-tai-lieu.md",
+    "source_bytes": 11727,
+    "source_git_blob": "42555b12d5516f057819b8e2ed2e4e0ccf43cb31"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/sach-tu-hoc.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/sach-tu-hoc.md",
+    "source_bytes": 36220,
+    "source_git_blob": "765909c5ac4ffd5ac3e2f7c41fa3890d217ac514"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/scenarios.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/scenarios.md",
+    "source_bytes": 59276,
+    "source_git_blob": "39b4098c1a351d69ad6e4af4d7c309c9ebe1578c"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/the-dinh-nghia.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/the-dinh-nghia.md",
+    "source_bytes": 23327,
+    "source_git_blob": "f22f60602952cfd3da50dfc428b3a44077fc1444"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/tu-kha-nang.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/tu-kha-nang.md",
+    "source_bytes": 16918,
+    "source_git_blob": "9d39095e9ba7ead6a07539448c440235d891a9ae"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/tuong-tac.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/tuong-tac.md",
+    "source_bytes": 80945,
+    "source_git_blob": "ff0846194aff8f13099a896cec68d67f4ae8989a"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/references/vong-viec.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/references/vong-viec.md",
+    "source_bytes": 9162,
+    "source_git_blob": "5d43562af7f1ea45170f735856b3e66194187770"
+  },
+  {
+    "source_path": "plugins/nnc/skills/work-first-learning/templates/classroom-CLAUDE.md",
+    "target_path": "plugins/lop-hoc/skills/work-first-learning/templates/classroom-CLAUDE.md",
+    "source_bytes": 12387,
+    "source_git_blob": "de720e31c64b6371863e13b639ea5a6e58398c14"
+  }
+]

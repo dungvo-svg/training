@@ -1,0 +1,23 @@
+# Private/runtime data at any depth
+**/.env
+**/.env.*
+!**/.env.example
+**/.noi-bo-tu-cam.txt
+**/.lien-he-ho-tro.txt
+**/.nguon-tai-lieu.md
+**/.phan-hoi.json
+**/phan-hoi.json
+**/.lop-hoc/
+**/Phieu-ket-qua.md
+**/trainer.json
+**/state.json
+**/node_modules/
+**/__pycache__/
+**/.pytest_cache/
+**/.venv/
+*.zip
+*.log
+*.db
+*.sqlite*
+output/
+dist/

@@ -1,0 +1,14 @@
+{
+  "name": "nnc-training",
+  "description": "Lớp học NNC: lớp học Claude Code do giáo viên AI dẫn, cài bằng git và tự cập nhật.",
+  "owner": {
+    "name": "NNC Lao Group - Ban R&D AI"
+  },
+  "plugins": [
+    {
+      "name": "lop-hoc",
+      "source": "./plugins/lop-hoc",
+      "description": "Bục giảng và giáo viên của Lớp học NNC (Skill lop-hoc:work-first-learning)."
+    }
+  ]
+}
