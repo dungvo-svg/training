@@ -33,3 +33,15 @@ Chưa kiểm: tạo fork, nhánh, file và PR từ máy người học (lúc đ�
 ## 2026-11-21 · repo công khai (0.13.1-pilot.4)
 
 Bắt đầu repo `dungvo-svg/training` từ một commit sạch (không mang lịch sử cũ). Kết quả kiểm trên bản này ghi ở PR và tin phát hành.
+
+## 2026-11-27 · sửa cảnh báo kiểu (0.13.1-pilot.5)
+
+Claude Code 2.1.330 kiểm kiểu TypeScript khi `plugin validate`. Đã sửa 7 cảnh báo, không đổi hành vi:
+- `register.tsx`: thu hẹp nấc im lặng trước khi tra bảng chờ; `Svg` chỉ dùng khi bề mặt có.
+- File test: bỏ thuộc tính bị ghi đè, thêm `find` vào kiểu bục giả lập, khẳng định phần tử đầu.
+
+README plugin thêm dòng lệnh cài.
+
+Sau sửa: `plugin validate plugins/lop-hoc` và `plugin validate .` đạt, không còn cảnh báo kiểu; chỉ còn lưu ý thiếu biểu tượng, dành cho danh mục plugin công khai, lớp học không dùng. `plugin test` 208/208, `unittest` 14/14.
+
+Chưa kiểm: máy đã cài `pilot.4` tự nhận `pilot.5` trong một phiên thật.

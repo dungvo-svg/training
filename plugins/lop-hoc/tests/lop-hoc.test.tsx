@@ -755,7 +755,7 @@ for (const surface of ['terminal', 'desktop'] as const) {
 
   test(`${surface}: ngân sách dòng — hình thu thành "Xem hình" khi có nút một chạm hoặc khi chật; dải chật chỉ còn thanh bước + ⋯; không có hàng đích/kết quả/nhãn sống; không có từ kỹ thuật`, LONG, async ($, on) => {
     const board = { title: 'Bảng tổng hợp', lines: ['Kênh OTC', 'Kênh HC'] }
-    const st = v6({ one_touch: ONE, stars: 2, challenge: { title: 'Thử 60 giây', seconds: 60, started_at: iso(T0) }, gift_box: true, badges_new: [BADGE1], destination: 'Bảng tổng hợp theo kênh', result_parts: [{ label: 'Đọc file', done: true }], board, podium: { show: ['model', 'mode'] }, ...WITH_ALL })
+    const st = v6({ one_touch: ONE, stars: 2, challenge: { title: 'Thử 60 giây', seconds: 60, started_at: iso(T0) }, gift_box: true, badges_new: [BADGE1], destination: 'Bảng tổng hợp theo kênh', result_parts: [{ label: 'Đọc file', done: true }], board, ...WITH_ALL })
     const io = classroom(on, { 'CLAUDE.md': '# Lớp học NNC', '.lop-hoc/state.json': st })
     await $.session.start({ cwd: 'D:/sandbox', surface, isInteractive: true } as never)
     const roomy = await $.ui.mount({ plugin: 'lop-hoc', surface, ...BAND, props: { ...BAND.props, maxRows: 80 } } as never)
@@ -1495,7 +1495,7 @@ for (const surface of ['terminal', 'desktop'] as const) {
   const open = async ($: never, on: On, files: Record<string, string>) => {
     const io = classroom(on, files)
     await ($ as unknown as { session: { start: (e: object) => Promise<unknown> } }).session.start({ cwd: 'D:/sandbox', surface, isInteractive: true })
-    const ui = await ($ as unknown as { ui: { mount: (e: object) => Promise<{ press: (q: object) => Promise<unknown>; unmount: () => Promise<void> }> } }).ui.mount({ plugin: 'lop-hoc', surface, ...BAND })
+    const ui = await ($ as unknown as { ui: { mount: (e: object) => Promise<{ press: (q: object) => Promise<unknown>; find: (q: object) => Promise<unknown>; unmount: () => Promise<void> }> } }).ui.mount({ plugin: 'lop-hoc', surface, ...BAND })
     await ui.press({ key: 'enter' })
     await teacherTalks($)
     return { io, ui }
@@ -2561,8 +2561,8 @@ test('desktop: thầy ghi góp ý → bục gửi một lần kèm tên học vi
   await teacherTalks($ as never)
   await io.clock.advance(10 * SEC)
   expect(posts).toHaveLength(1)
-  expect(posts[0].url).toBe('https://script.google.com/macros/s/abc/exec')
-  const b = JSON.parse(posts[0].body)
+  expect(posts[0]!.url).toBe('https://script.google.com/macros/s/abc/exec')
+  const b = JSON.parse(posts[0]!.body)
   expect(b.token).toBe('tk')
   expect(b.hoc_vien).toBe('Bạn A')
   expect(b.id).toBe('v1-chot')

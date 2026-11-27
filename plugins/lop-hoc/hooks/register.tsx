@@ -236,9 +236,10 @@ export function foldPreview(text: string): string | null {
 
 // Nấc im lặng kế tiếp đã đến giờ chưa (đủ điều kiện khác do nơi gọi kiểm). slow = thử thách có giờ / làm việc thật.
 export function silenceDue(sil: Silence, now: number, slow: boolean): 1 | 2 | 3 | null {
-  if (sil.rung >= 3) return null
-  const wait = sil.rung === 0 && slow ? SILENCE_WORK_MS : SILENCE_WAIT_MS[sil.rung]!
-  return now - sil.at >= wait ? ((sil.rung + 1) as 1 | 2 | 3) : null
+  const rung = sil.rung
+  if (rung === 3) return null
+  const wait = rung === 0 && slow ? SILENCE_WORK_MS : SILENCE_WAIT_MS[rung]
+  return now - sil.at >= wait ? ((rung + 1) as 1 | 2 | 3) : null
 }
 
 type UsageCue = { key: string; text: string; also: string[] }
@@ -1687,7 +1688,9 @@ export const register: Register = on => {
     const { Box, Text, Button } = $.ui.resolve(e)
     const isDesktop = e.surface === 'desktop'
     const svg = (key: string, source: string, alt: string, dims: object = {}): RenderChildren => {
-      const { Svg } = $.ui.resolve(e)
+      const ui = $.ui.resolve(e)
+      if (!('Svg' in ui)) return null // bề mặt không vẽ được hình
+      const { Svg } = ui
       return <Svg key={key} source={source} alt={alt} {...dims} />
     }
     const P = paletteOf(await read($, themeAtom))
